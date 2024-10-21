@@ -1,2 +1,2 @@
 #!/bin/bash 
-#iclude c > $CFILE
+gcc -E $CFILE -o output.i
