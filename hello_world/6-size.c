@@ -1,9 +1,4 @@
 #include <stdio.h>
-int a;
-float b;
-double c; 
-char d;
-
 int main (void)
 { 
 	printf("Size of char: %lu bytes\n", sizeof(char));
