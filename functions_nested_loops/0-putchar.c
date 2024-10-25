@@ -3,7 +3,6 @@
  *
  * Return: Always 0 (Success)
  */
-#include <stdio.h>
 #include "main.h"
 
 int main(void)
@@ -26,7 +25,7 @@ int main(void)
 
 		_putchar('r');
 
-			putchar('\n');
+			_putchar('\n');
 
 		return (0);
 
