@@ -7,22 +7,23 @@
 
 /**
  * print_line - prints line.
- *@c: The character to be checked.
+ *@n: The character to be checked.
  *
  * Return: 1 if character is uppercase, 0 otherwise.
  */
-void print_line(int c)
+void print_line(int n)
+
 {
 
+	int c = 0;
+
+		while (c > n)
+		c++;
+
+			_putchar('_');
 
 
-	for (c= 0; c > 0; c++)
-
-		_putchar('_');
-
-	if (c < 0)
-
-		_putchar('\n');
+	_putchar('\n');
 
 
 
