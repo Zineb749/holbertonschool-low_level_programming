@@ -11,7 +11,7 @@
  *
  * Return: 1 if character is uppercase, 0 otherwise.
  */
-void print_line(int n)
+void print_line(int )
 {
 
 	int i = 0;
