@@ -16,14 +16,14 @@ void more_numbers(void)
 	int c;
 	int i;
 
-	for (c = 0; c <= 14; c++)
+	for (i = 0; i < 10; i++)
+	{
+		for (c = 0; c <= 14; c++)
 
-		_putchar(c + '0');
+			if (c >= 10)
 
-			for (i = 0; i < 10; i++)
-
-				_putchar (i);
-
+			_putchar((c  / 10) + '0');
+	}
 	_putchar('\n');
 
 }
