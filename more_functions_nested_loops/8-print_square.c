@@ -20,10 +20,7 @@ void print_square(int n)
 	{
 		i = c;
 		while (i > 0)
-		{
-			_putchar(' ');
-			i--;
-		}
+
 		_putchar('#');
 		_putchar('\n');
 		c++;
