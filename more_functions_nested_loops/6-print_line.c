@@ -14,9 +14,9 @@
 void print_line(int c)
 {
 
-	 c = 0;
 
-	if (c > 0; c++)
+
+	for (c= 0; c > 0; c++)
 
 		_putchar('_');
 
