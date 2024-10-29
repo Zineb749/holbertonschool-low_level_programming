@@ -7,24 +7,28 @@
 
 /**
  * print_square - prints a triangle.
- *@n : character to be checked
+ *@size : character to be checked
  * Return: 1 if character is uppercase, 0 otherwise.
  */
-void print_square(int n)
+void print_square(int size)
 {
-	int c, i;
+	int a = 0;
+	int b = 0;
 
-	c = 0;
-
-	while (n > 0)
+	if (size > 0)
 	{
-		i = c;
-		while (i > 0)
-
-		_putchar('#');
+		while (a < size)
+		{
+			while (b < size)
+			{
+				_putchar('#');
+				b++;
+			}
+		b = 0;
+		a++;
 		_putchar('\n');
-		c++;
-		n--;
+		}
 	}
-
+	else
+		_putchar('\n');
 }
