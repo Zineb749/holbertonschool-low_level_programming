@@ -11,16 +11,16 @@
  *
  * Return: 1 if character is uppercase, 0 otherwise.
  */
-void print_line(int )
+void print_line(int)
 {
 
-	int i = 0;
+	int n = 0;
 
-	if (i > 0)
+	if (n > 0)
 
 		_putchar('_');
 
-	if (i < 0)
+	if (n < 0)
 
 		_putchar('\n');
 
