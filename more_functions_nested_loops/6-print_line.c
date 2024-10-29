@@ -12,19 +12,18 @@
  * Return: 1 if character is uppercase, 0 otherwise.
  */
 void print_line(int n)
-
 {
+	int a = 0;
 
-	int c = 0;
-
-		while (c > n)
-		c++;
-
+	if (n > 0)
+	{
+		while (a <= n)
+		{
 			_putchar('_');
-
-
+			a++;
+		}
+	 _putchar('\n');
+	}
+	else
 	_putchar('\n');
-
-
-
 }
