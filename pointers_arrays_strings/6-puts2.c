@@ -15,13 +15,23 @@ void puts2(char *str)
 {
 	while (*str)
 
-	{ _putchar(*str / 2);
+	{ _putchar(*str);
+
+		str++;
+
+			if (*str)
+			{
+
+				str++;
+
+			}
+
+		_putchar('\n');
+
+
+
+
 
 	}
-
-	_putchar('\n');
-
-
-
 
 }
