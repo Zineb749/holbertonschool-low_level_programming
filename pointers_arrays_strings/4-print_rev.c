@@ -13,15 +13,21 @@
  */
 void print_rev(char *s)
 {
-	while (*s)
+	char *end = s;
 
-	{ _putchar(*s - 1);
+	while (*end)
+	{
+		end++;
+	}
 
+	end--;
+
+	while (end >= s)
+	{
+		_putchar(*end);
+		end--;
 	}
 
 	_putchar('\n');
-
-
-
-
 }
+
