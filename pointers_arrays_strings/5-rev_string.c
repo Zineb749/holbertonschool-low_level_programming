@@ -1,33 +1,29 @@
-/*
- * File: 5-rev_string.c
- *
- */
-
 #include "main.h"
 
 /**
- * rev_string - Checks if a character is uppercasee.
- * @s: The character to be checked.
- *
- * Return: 1 if character is uppercase, 0 otherwise.
+ * rev_string - function that reverse a string
+ * @s: string to be reversed
  */
+
 void rev_string(char *s)
 {
-	char *end = s;
+	char tmp;
+	int i, j, k;
 
-	while (*end)
+	j = 0;
+	k = 0;
+
+	while (s[j] != '\0')
 	{
-		end++;
+		j++;
 	}
 
-	end--;
+	k = j - 1;
 
-	while (end >= s)
+	for (i = 0; i < j / 2; i++)
 	{
-		_putchar(*end);
-		end--;
+		tmp = s[i];
+		s[i] = s[k];
+		s[k--] = tmp;
 	}
-
-	_putchar('\n');
 }
-
