@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _strchr - Checks if a character is uppercasee.
+ * *_strchr - Checks if a character is uppercasee.
  * @c: The character to be checked.
  * @s: the character to be checked.
  *
