@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _print_rev_recursion - prints a string
+ * _strlen_recursion - prints string length
  * @s: The character to be checked.
  *
  * Return: 1 if character is uppercase, 0 otherwise.
