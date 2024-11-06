@@ -1,12 +1,7 @@
-/*
- * File: 1-memcpy.c
- *
- */
-
 #include "main.h"
 
 /**
- * _memcpy - Copies memory.
+ * *_memcpy - Copies memory.
  * @src: The character to be checked.
  * @dest: The character to be checked.
  * @n: The character to be checked.
@@ -21,5 +16,4 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 		dest[i] = src[i];
 
 	return (dest);
-
 }
