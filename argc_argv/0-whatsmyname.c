@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  * main - Entry point
- *
+ *@argc: character to be checked
+ *@argv: character to be checked
  * Return: Always 0 (Success)
  */
 
