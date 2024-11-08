@@ -1,8 +1,15 @@
 #include <stdio.h>
+/**
+ * main - Entry point
+ *
+ * Return: Always 0 (Success)
+ */
+int main(void)
 
-int main(int argc, char * argv[])
+
+int main(int argc, char *argv[])
 {
 	(void)argc;
-	printf("Program name is: %s \n", argv[0]);
-	return(0);
+	 printf("%s\n", argv[0]);
+	return (0);
 }
