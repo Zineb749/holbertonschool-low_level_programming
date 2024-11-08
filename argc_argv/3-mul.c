@@ -1,22 +1,22 @@
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * main - Entry point
  *@argc: character to be checked.
  *@argv: charcter to be checked.
  * Return: Always 0 (Success)
  */
-int main(int argc, char __attribute__((unused)) *argv[])
+int main(int argc, char *argv[])
 {
 
-	printf("%d \n", argc * argc);
-
-	return (0);
-
 	if (argc != 3)
+
 	{
 		printf("Error");
 
-		return (1);
+		return (0);
 	}
 
+	printf("%d\n", atoi(argv[1]) * atoi(argv[2]));
+	return (0);
 }
