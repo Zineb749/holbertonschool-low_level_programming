@@ -1,25 +1,20 @@
-#include <stdio.h>
 #include "dog.h"
-/*
- * File: 0-isupper.c
- *
- */
-
 
 /**
- * init_dog - Checks if a character is uppercasee.
- * @d: The character to be checked.
- * @name: The charcter to be checked.
- * @age : age.
- * @owner: owner.
+ * init_dog - initializes a structure of type dog
+ * @d: pointer to structure
+ * @name: pointer to the name of the dog
+ * @age: age of dog
+ * @owner: pointer to owner of dog
  *
- * Return: 1 if character is uppercase, 0 otherwise.
+ * Return: void
  */
-
 void init_dog(struct dog *d, char *name, float age, char *owner)
-{	
+{
 	if (d)
-	d->name = name;
-	d->age = age;
-	d->owner = owner;
+	{
+		d->name = name;
+		d->age = age;
+		d->owner = owner;
+	}
 }
